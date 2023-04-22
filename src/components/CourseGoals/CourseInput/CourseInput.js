@@ -22,7 +22,7 @@ const CourseInput = (props) => {
       console.log("Write your goal, please ❌");
       return;
     }
-
+    // console.log(enteredValue);
     props.onAddGoal(enteredValue);
   };
 
